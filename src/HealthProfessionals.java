@@ -11,5 +11,19 @@ public class HealthProfessionals {
         this.name = name;
         this.basicinfo = basicinfo;
     }   
+
+
+// add a way to get this information from clients 
+
+public int getId(){
+    return id;
+}
+public String getName(){
+    return name;
+}
+public String getBasicinfo(){
+    return basicinfo;
+}
+
 }
 
