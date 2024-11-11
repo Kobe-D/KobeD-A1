@@ -38,9 +38,32 @@ public boolean setId(int id) {
 return true;    
     }
 
-
-
+public boolean setName(String name) {
+    if ((name.length() > 3) && (name.length() < 15)) {
+        this.name = name;
+} else {
+    return false;
 }
+return true;    
+    }
+
+public boolean setBasicinfo(String basicinfo) {
+    if ((basicinfo.length() > 0) && (basicinfo.length() <100)) {
+        this.basicinfo = basicinfo;
+} else {
+    return false;
+}
+return true;
+    }
+}
+
+
+
+
+
+
+
+
 
 
 
