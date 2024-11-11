@@ -11,8 +11,6 @@ public class HealthProfessionals {
         this.name = name;
         this.basicinfo = basicinfo;
     }   
-
-
 // add a way to get this information from clients 
 
 public int getId(){
@@ -25,10 +23,7 @@ public String getBasicinfo(){
     return basicinfo;
 }
 
-
 // methods to manipulate the properties 
-
-
 public boolean setId(int id) {
     if ((id > 0) && (id < 500)) {
         this.id = id;
