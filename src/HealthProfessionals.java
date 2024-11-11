@@ -25,5 +25,24 @@ public String getBasicinfo(){
     return basicinfo;
 }
 
+
+// methods to manipulate the properties 
+
+
+public boolean setId(int id) {
+    if ((id > 0) && (id < 500)) {
+        this.id = id;
+} else {
+    return false;
 }
+return true;    
+    }
+
+
+
+}
+
+
+
+
 
