@@ -1,11 +1,11 @@
-public class HealthProfessionals { 
+public class HealthProfessional { 
     // Variables
     private int id;
     private String name;
     private String basicinfo;
 
     // Constructor
-    public HealthProfessionals(int id, String name, String basicinfo) {
+    public HealthProfessional(int id, String name, String basicinfo) {
     // Initialize the variables using the parameters
         this.id = id;
         this.name = name;
@@ -23,7 +23,7 @@ public String getBasicinfo(){
     return basicinfo;
 }
 
-// methods to manipulate the properties 
+// methods to manipulate the properties by creating restrictions 
 public boolean setId(int id) {
     if ((id > 0) && (id < 500)) {
         this.id = id;
