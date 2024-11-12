@@ -1,3 +1,5 @@
+// Part 1 - base clase
+
 public class HealthProfessional { 
     // Variables
     private int id;
@@ -54,9 +56,7 @@ return true;
 
 
 
-
-
-
+// method to print all of the above information 
 
 
 
