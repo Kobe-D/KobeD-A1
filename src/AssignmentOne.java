@@ -22,6 +22,7 @@ public class AssignmentOne {
 // adding apoitnments
 
     Appointment booking1 = new Appointment("Client 1", "047", "11:00", d1);
+    Appointment booking2 = new Appointment("Client 2", "048", "11:00", gp3);
 
 
 // command to actuall println these 
@@ -34,7 +35,8 @@ public class AssignmentOne {
 
         System.out.println("------------------------------");
 
-
+    booking1.printlnAppointmentList();
+    
     }
 
 
