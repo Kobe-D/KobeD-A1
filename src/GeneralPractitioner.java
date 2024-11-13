@@ -21,6 +21,9 @@ public void setGP(String gp) {
 
 // adjust the print method to include GP
 
+
+@Override  // due to a reamining error and confusion i did ask chatgpt for a fix for this error and this was recommend, more comments will be made in the repository// 
+
 public void printDetails() {    
     System.out.print("gp = " + gp);
 }
