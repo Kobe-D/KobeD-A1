@@ -9,4 +9,19 @@ public class GeneralPractitioner extends HealthProfessional{
     this.GP = GP;
 
     }   
+
+    //getter for GP
+    public String getGP() {
+        return GP;
+    }
+// setter for GP
+    public void setGP(String GP) {
+        this.GP = GP;
+    }
+
+// adjust the print method to include GP
+
+
+
+
 }
