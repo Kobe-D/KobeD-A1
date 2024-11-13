@@ -21,11 +21,59 @@ public class Appointment {
 //inistalise the varribles 
 
     public Appointment(String patientName, String patientMobile, String timeslot, HealthProfessional doctor) {
+        this.patientName = patientName;
+        this.patientMobile = patientMobile;
+        this.timeslot = timeslot;
+        this.doctor = doctor;
+    
+    }
 
+    // getter method for patient Name
 
+    public String getPatientName() {
+        return patientName;
+    }
 
-
+    // setter method for patient Name
    
+    public void setPatientName(String patientName) {
+        this.patientName = patientName;
+
+    }
+
+// getter / setter method for patient mobile 
+    public String getPatientMobile(){
+        retuen patientMobile;
+    }
+
+    public void setPatientMobile(String patientMobile) {
+        this.patientMobile = patientMobile;
+    }
+
+// getter / setter method for timeslot 
+
+    public String getTimeslot(){
+        retuen timeslot;
+    }
+
+    public void setTimeslot(String timeslot) {
+        this.timeslot = timeslot;
+    }
+
+// getter / setter method for doctor
+
+    public HealthProfessional getDoctor(){
+        retuen doctor;
+    }
+
+    public void setDoctor(HealthProfessional doctor) {
+        this.doctor = doctor;
+    }
+
+
+
+
+
 
 
 
