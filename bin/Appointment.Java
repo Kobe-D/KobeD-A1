@@ -43,7 +43,7 @@ public class Appointment {
 
 // getter / setter method for patient mobile 
     public String getPatientMobile(){
-        retuen patientMobile;
+        return patientMobile;
     }
 
     public void setPatientMobile(String patientMobile) {
@@ -53,7 +53,7 @@ public class Appointment {
 // getter / setter method for timeslot 
 
     public String getTimeslot(){
-        retuen timeslot;
+        return timeslot;
     }
 
     public void setTimeslot(String timeslot) {
@@ -63,7 +63,7 @@ public class Appointment {
 // getter / setter method for doctor
 
     public HealthProfessional getDoctor(){
-        retuen doctor;
+        return doctor;
     }
 
     public void setDoctor(HealthProfessional doctor) {
