@@ -76,7 +76,7 @@ public class Appointment {
 public void printAppointmentList(){
     System.out.println("Patient Name: " + patientName);
     System.out.println("Patien Mobile: " + patientMobile);
-    System.out.println("Specified time slot" + timeSlot);
+    System.out.println("Specified time slot" + timeslot);
     System.out.println("Doctor :" + doctor)
 
 
