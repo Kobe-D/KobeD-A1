@@ -52,9 +52,21 @@ public boolean setBasicinfo(String basicinfo) {
 }
 return true;
     }
+// method to print all of the above information 
+
+public void printDetails() {
+    System.out.print("Id = " + id);
+    System.out.print("Name = " + name);
+    System.out.print("Basicinfo = " + basicinfo);
+
+
 }
 
-// method to print all of the above information 
+
+
+}
+
+
 
 
 
