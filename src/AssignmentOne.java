@@ -17,6 +17,13 @@ public class AssignmentOne {
     Dermatologist d1 = new Dermatologist(011, "Dr Harry Joghnson", "Graduated for X univeristy with Y degree", "Dermatopathology");
     Dermatologist d2 = new Dermatologist(012, "Dr Dexter Morgan", "Graduated for  Y univeristy with X degree", "Cosmetic dermatology");
 
+
+    //part 4
+// adding apoitnments
+
+    Appointment booking1 = new Appointment("Client 1", "047", "11:00", d1);
+
+
 // command to actuall println these 
     gp1.printlnDetails();
     gp2.printlnDetails();
