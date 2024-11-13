@@ -3,5 +3,11 @@ public class AssignmentOne {
 
     }
     
+     // Part 3 – Using classes and objects
+
+
+     GeneralPractitioner gp1 = new GeneralPractitioner(001, "Dr Megan Poppy", "Family doctor", null);
+     
+
 }
  
