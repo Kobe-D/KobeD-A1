@@ -1,3 +1,4 @@
+
 public class AssignmentOne {
     public static void main(String[] args) {
 
@@ -25,6 +26,8 @@ public class AssignmentOne {
     Appointment booking2 = new Appointment("Client 2", "048", "11:00", gp3);
 
 
+    
+
 // command to actuall println these 
     gp1.printlnDetails();
     gp2.printlnDetails();
@@ -39,7 +42,6 @@ public class AssignmentOne {
     booking2.printAppointmentList();
     }
 
-
-
+    
 }
  
