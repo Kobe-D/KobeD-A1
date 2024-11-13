@@ -2,10 +2,11 @@
 
 //variables
 public class Appointment {
+    
     private String patientName;
     private String patientMobile;
     private String timeslot;
-    private String HealthProfessional doctor; 
+    private HealthProfessional doctor; 
 
 
 // constrcutor
@@ -76,7 +77,7 @@ public class Appointment {
 public void printAppointmentList(){
     System.out.println("Patient Name: " + patientName);
     System.out.println("Patien Mobile: " + patientMobile);
-    System.out.println("Specified time slot" + timeslot);
+    System.out.println("Specified time slot: " + timeslot);
     System.out.println("Doctor :" + doctor.getName());
 
 
