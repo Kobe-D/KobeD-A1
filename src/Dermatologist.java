@@ -27,8 +27,14 @@ public class Dermatologist extends HealthProfessional {
 @Override  // due to a reamining error and confusion i did ask chatgpt for a fix for this error and this was recommend, more comments will be made in the repository// 
 
 public void printlnDetails() {    
-    System.out.println("Information for the dermatologist specialyst:");
-    System.out.println("specalist = " + specialist);
+    System.out.println("Doctor name: " + getName() );
+    System.out.println("Doctor ID " + getId());
+    System.out.println("Information for the dermatologist specialyst: " + getBasicinfo());
+    System.out.println("specalist = " + getSpecialist());
+    // adding a line to seperate information to not get cludder 
+    System.out.println("========================");
+
+    
 }
 
 
