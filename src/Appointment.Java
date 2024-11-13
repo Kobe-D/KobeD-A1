@@ -14,7 +14,7 @@ public class Appointment {
         this.patientName = "";
         this.patientMobile = "";
         this.timeslot = "";
-        this.doctor = doctor;
+        this.doctor = null;
 
  }
 

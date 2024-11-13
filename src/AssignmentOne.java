@@ -35,8 +35,8 @@ public class AssignmentOne {
 
         System.out.println("------------------------------");
 
-    booking1.printlnAppointmentList();
-    
+    booking1.printAppointmentList();
+    booking2.printAppointmentList();
     }
 
 
