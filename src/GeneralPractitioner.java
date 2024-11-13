@@ -25,8 +25,9 @@ public void setSpecialised(String specialised) {
 @Override  // due to a reamining error and confusion i did ask chatgpt for a fix for this error and this was recommend, more comments will be made in the repository// 
 
 public void printDetails() {    
-    System.out.print("Information for the GneralPractitioner:");
+    System.out.print("Information for the GneralPractitiner:" + getBasicinfo());
     System.out.print("specialised = " + specialised);
+
 }
 
 
