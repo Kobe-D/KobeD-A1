@@ -30,7 +30,7 @@ public void printlnDetails() {
     System.out.println("Information for the GeneralPractitiner:" + getBasicinfo());
     System.out.println("specialised = " + getSpecialised());
     // adding a line to seperate information to not get cludder 
-    System.out.println("========================");
+    System.out.println("------------------------------");
     }
 
 }

@@ -32,7 +32,7 @@ public void printlnDetails() {
     System.out.println("Information for the dermatologist specialyst: " + getBasicinfo());
     System.out.println("specalist = " + getSpecialist());
     // adding a line to seperate information to not get cludder 
-    System.out.println("========================");
+    System.out.println("------------------------------");
 
     
 }

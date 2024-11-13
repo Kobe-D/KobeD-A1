@@ -25,7 +25,7 @@ public class AssignmentOne {
     d1.printlnDetails();
     d2.printlnDetails();
 
-        System.out.println("====================================");
+        System.out.println("------------------------------");
 
 
     }
