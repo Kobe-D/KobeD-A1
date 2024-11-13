@@ -22,13 +22,13 @@ public class Dermatologist extends HealthProfessional {
     }
 
 
-// add a method to update print to include specialist
+// add a method to update println to include specialist
 
 @Override  // due to a reamining error and confusion i did ask chatgpt for a fix for this error and this was recommend, more comments will be made in the repository// 
 
-public void printDetails() {    
-    System.out.print("Information for the dermatologist specialyst:");
-    System.out.print("specalist = " + specialist);
+public void printlnDetails() {    
+    System.out.println("Information for the dermatologist specialyst:");
+    System.out.println("specalist = " + specialist);
 }
 
 

@@ -17,15 +17,15 @@ public class AssignmentOne {
     Dermatologist d1 = new Dermatologist(011, "Dr Harry Joghnson", "Graduated for X univeristy with Y degree", "Dermatopathology");
     Dermatologist d2 = new Dermatologist(012, "Dr Dexter Morgan", "Graduated for  Y univeristy with X degree", "Cosmetic dermatology");
 
-// command to actuall print these 
-    gp1.printDetails();
-    gp2.printDetails();
-    gp3.printDetails();
-    gp4.printDetails();
-    d1.printDetails();
-    d2.printDetails();
+// command to actuall println these 
+    gp1.printlnDetails();
+    gp2.printlnDetails();
+    gp3.printlnDetails();
+    gp4.printlnDetails();
+    d1.printlnDetails();
+    d2.printlnDetails();
 
-        System.out.print("====================================");
+        System.out.println("====================================");
 
 
     }

@@ -19,18 +19,18 @@ public void setSpecialised(String specialised) {
     this.specialised = specialised;
     }
 
-// adjust the print method to include GP
+// adjust the println method to include GP
 
 
 @Override  // due to a reamining error and confusion i did ask chatgpt for a fix for this error and this was recommend, more comments will be made in the repository// 
 
-public void printDetails() {    
-    System.out.print("Doctor name: " + getName() );
-    System.out.print("Doctor ID " + getId());
-    System.out.print("Information for the GeneralPractitiner:" + getBasicinfo());
-    System.out.print("specialised = " + getSpecialised());
+public void printlnDetails() {    
+    System.out.println("Doctor name: " + getName() );
+    System.out.println("Doctor ID " + getId());
+    System.out.println("Information for the GeneralPractitiner:" + getBasicinfo());
+    System.out.println("specialised = " + getSpecialised());
     // adding a line to seperate information to not get cludder 
-    System.out.print("========================");
+    System.out.println("========================");
     }
 
 }
