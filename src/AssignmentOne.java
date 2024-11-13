@@ -1,3 +1,6 @@
+//import arrylist class
+import java.util.ArrayList;
+
 
 public class AssignmentOne {
     public static void main(String[] args) {
@@ -19,13 +22,9 @@ public class AssignmentOne {
     Dermatologist d2 = new Dermatologist(012, "Dr Dexter Morgan", "Graduated for  Y univeristy with X degree", "Cosmetic dermatology");
 
 
-    //part 4
-// adding apoitnments
-
-    Appointment booking1 = new Appointment("Client 1", "047", "11:00", d1);
-    Appointment booking2 = new Appointment("Client 2", "048", "11:00", gp3);
 
 
+  
     
 
 // command to actuall println these 
@@ -38,10 +37,24 @@ public class AssignmentOne {
 
         System.out.println("------------------------------");
 
+  
+    
+  //part 5 making an arrray list to store objectes
+    ArrayList<Appointment> appointments = new ArrayList<>();
+
+    //part 4
+// adding apoitnments
+
+    Appointment booking1 = new Appointment("Client 1", "047", "11:00", d1);
+    Appointment booking2 = new Appointment("Client 2", "048", "11:00", gp3);
+    appointments.add(booking1);
+
     booking1.printAppointmentList();
     booking2.printAppointmentList();
-    }
 
-    
+
+
+
+    }
 }
  
