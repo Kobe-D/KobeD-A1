@@ -17,10 +17,23 @@ public class Dermatologist extends HealthProfessional {
     }
 
     //setter 
-    public void SetSpecialist(String Specialsist) {
+    public void setSpecialist(String specialist) {
         this.specialist = specialist;
     }
 
+
+// add a method to update print to include specialist
+
+@Override  // due to a reamining error and confusion i did ask chatgpt for a fix for this error and this was recommend, more comments will be made in the repository// 
+
+public void printDetails() {    
+    System.out.print("specalist = " + specialist);
 }
 
-// add a method to update print to include specialist 
+
+
+
+
+}
+
+ 
