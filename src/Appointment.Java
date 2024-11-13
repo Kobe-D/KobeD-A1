@@ -71,10 +71,16 @@ public class Appointment {
     }
 
 
+// adding printing method
+
+public void printAppointmentList(){
+    System.out.println("Patient Name: " + patientName);
+    System.out.println("Patien Mobile: " + patientMobile);
+    System.out.println("Specified time slot" + timeSlot);
+    System.out.println("Doctor :" + doctor)
 
 
-
-
+}
 
 
     }
